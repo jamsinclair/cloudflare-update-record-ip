@@ -13,8 +13,8 @@ import (
 const (
 	authEmail        = "your-cloudflare-email"
 	authKey          = "your-auth-key"
-    updateZoneName   = "the-cloudflare-zone-name(e.g. example.com)"
-    updateRecordName = "the-record-name(e.g. subdomain.example.com)"
+	updateZoneName   = "the-cloudflare-zone-name(e.g. example.com)"
+	updateRecordName = "the-record-name(e.g. subdomain.example.com)"
 	baseAPIURL       = "https://api.cloudflare.com/client/v4"
 	zonesAPI         = "%s/zones"
 	recordsAPI       = "%s/zones/%s/dns_records"
